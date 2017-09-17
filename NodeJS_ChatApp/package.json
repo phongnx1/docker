@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learn nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-persist": "0.0.8",
+    "socket.io": "^1.7.3"
+  }
+}
