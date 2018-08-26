@@ -1,7 +1,7 @@
 version: '2'
 services:
   mysql:
-    image: mysql
+    image: mysql:5.7
     container_name: test-mysql
     ports:
       - 6603:3306
