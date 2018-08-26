@@ -1,8 +1,7 @@
 FROM node:4.4.5
 
-RUN mkdir -p /usr/src/app
-
 # Create app directory
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
